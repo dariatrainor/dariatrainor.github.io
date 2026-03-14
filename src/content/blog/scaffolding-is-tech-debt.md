@@ -2,6 +2,7 @@
 title: 'Scaffolding is Tech Debt'
 description: "If you're spending more time tuning your AI workflow than clarifying what you're building, you might be investing in the wrong layer."
 pubDate: '2026-03-14'
+heroImage: '../../assets/scaffolding-is-tech-debt.jpeg'
 ---
 
 Every few weeks someone shares their elaborate AI coding setup. Custom prompts chained together. Wrapper scripts. Carefully tuned system instructions. Hours of work making the current model do something it almost can do.
