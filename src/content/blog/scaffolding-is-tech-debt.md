@@ -25,7 +25,7 @@ Here's a practical example. You don't need to run `/init` on your projects. You 
 
 What belongs in those files is genuinely non-discoverable information: "we use this unusual deploy pipeline," "don't mock the database in integration tests," "this service talks to that legacy API via this specific auth flow." Twenty lines, tops. Anything more and you're probably writing scaffolding.
 
-And even the useful bits need regular pruning. I review my global instructions file periodically and delete anything the model has gotten better at handling on its own. Boris Cherny's CLAUDE.md for Claude Code itself is two lines long. His advice: delete yours and start fresh. Each new model needs less hand-holding.
+And even the useful bits need regular pruning. I review my global instructions file periodically and delete anything the model has gotten better at handling on its own. Boris Cherny's CLAUDE.md for Claude Code itself is two lines long. His advice: delete yours and start fresh. Each new model needs less hand-holding. I've published a [Claude Code skill](https://github.com/dariatrainor/claude-skills/blob/master/skills/audit-claude-md/SKILL.md) that audits your CLAUDE.md and classifies each instruction as foundation or scaffolding — try it on yours and see how much you can cut.
 
 So if most of what we build around AI tools is temporary, what actually compounds? Clear specifications. Good test suites. Well-structured codebases. The prompt that gets your current model to handle edge cases correctly — that's scaffolding. The acceptance criteria that define what "correct" actually means — that's foundation. One has a shelf life of weeks. The other compounds over time.
 
