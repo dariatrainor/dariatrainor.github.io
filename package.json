@@ -1,7 +1,10 @@
 {
-  "name": "blog",
+  "name": "dariatrainor-blog",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "Personal blog about software engineering, AI, and careers",
+  "author": "Daria Trainor",
+  "license": "MIT",
   "engines": {
     "node": ">=22.12.0"
   },
